@@ -1,0 +1,11 @@
+.mobile-nav{
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.service-menu{
+    width: 100px;
+    box-sizing: border-box;
+    top: 70px;
+    right: 275px;
+}

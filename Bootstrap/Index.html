@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="py-3 w-100 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <div>
+            <!-- logo -->
+            <img width="100" src="./logo.png" alt="Logo Img" />
+          </div>
+
+          <div class="d-lg-flex d-none justify-content-between w-25">
+            <!-- menu items -->
+            <div><a href="#">Home</a></div>
+            <div><a href="#">About</a></div>
+            <div>
+              <a class="service_drop" href="#"
+                >Services <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </div>
+            <div><a href="#">Contacts</a></div>
+          </div>
+          <!-- Menu bar  -->
+          <div class="d-lg-none">
+            <button class="menu-btn">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="service-menu" class="service-menu bg-info position-fixed d-none">
+      <div><a href="">1 Service</a></div>
+      <div><a href="">2 Service</a></div>
+      <div><a href="">3 Service</a></div>
+    </div>
+    <div class="slide slide-style-2 slider-box-content without-overlay d-flex align-items-center justify-content-center bg_image bg_image--32" tabindex="-1" style="width: 100%; display: inline-block;">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-12">
+        <div class="inner text-right">
+        <h1 class="title">Frontend developer.</h1>
+        <p class="description">You cannot want something so much that you fear you won't get it.</p>
+        <div class="slide-btn"><a class="rn-button-style--2 btn-solid" href="/">Contact Us</a></div></div></div></div></div></div>
+
+    <!-- mobile version -->
+    <aside
+      id="mobile-nav"
+      class="position-fixed top-0 end-0 p-3 bg-info mobile_nav vh-100 d-lg-none d-none"
+    >
+      <div class="text-end">
+        <button id="close_btn">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <!-- menu items -->
+      <div class="pb-2"><a class="text-white" href="#">Home</a></div>
+      <div class="pb-2"><a class="text-white" href="#">About</a></div>
+      <div class="pb-2"><a class="text-white" href="#">Services</a></div>
+      <div class="pb-2"><a class="text-white" href="#">Contacts</a></div>
+    </aside>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="hero vh-100 w-100 bg-success"></div>
+        </div>
+  
+  
+        <div class="carousel-item">
+        <div class="hero vh-100 w-100 bg-primary"></div>
+        </div>
+  
+  
+        <div class="carousel-item">
+          <div class="hero vh-100 w-100 bg-danger"></div>
+        </div>
+      </div>
+  
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- card -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card border-0" style="width: 18rem">
+              <img src="https://trydo.rainbowit.net/assets/images/featured/corporate-01.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card border-0" style="width: 18rem">
+              <img src="https://trydo.rainbowit.net/assets/images/featured/corporate-01.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card border-0" style="width: 18rem">
+              <img src="https://trydo.rainbowit.net/assets/images/featured/corporate-01.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- cdn bootstrap 35 -->
+    <script
+      async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script async src="/style.css"></script>
+</body>
+</html>
